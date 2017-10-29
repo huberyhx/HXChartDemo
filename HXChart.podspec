@@ -1,11 +1,3 @@
-#
-#  Be sure to run `pod spec lint HXChart.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
-
 Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -16,7 +8,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HXChart"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "http://www.jianshu.com/p/ff8dd3e56de5"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +20,7 @@ Pod::Spec.new do |s|
    图表 进度图 折线图 饼图
               DESC
 
-  s.homepage     = "https://github.com/huberyhx/HXChartDemo.git"
+  s.homepage     = "https://github.com/huberyhx/HXChartDemo"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +72,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/huberyhx/HXChartDemo.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/huberyhx/HXChartDemo.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,8 +83,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "HXChartDemo/HXChart/*.{h,m}"
-  s.exclude_files = "HXChartDemo/HXChartDemo/*.{h,m}"
+  s.source_files  = "HXChartDemo/HXChart"
+#s.exclude_files = "HXChartDemo/HXChartDemo/*.{h,m}"
 
 #s.public_header_files = "HXChartDemo/HXChartDemo/*.{h,m}"
 
