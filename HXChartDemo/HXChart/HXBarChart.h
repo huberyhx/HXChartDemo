@@ -30,10 +30,10 @@ typedef NS_ENUM(NSUInteger , HXBarChartValuePositionStyle) {
 /** Y轴最小值 */
 @property(nonatomic,assign) CGFloat yValueMin;
 
-/** X轴刻度值Text数组 */
+/** X轴刻度值Text数组 - 数组不仅用于显示,而且用于坐标计算,如果不想显示,则可设置isShowXAxisText为NO*/
 @property(nonatomic,strong) NSArray *xAxisTextArray;
 
-/** Y轴刻度值Text数组 */
+/** Y轴刻度值Text数组 - 数组不仅用于显示,而且用于坐标计算,如果不想显示,则可设置isShowYAxisText为NO*/
 @property(nonatomic,strong) NSArray *yAxisTextArray;
 
 #pragma 非必需属性

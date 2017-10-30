@@ -33,13 +33,13 @@
 }
 
 - (IBAction)add:(UIButton *)sender {
-    CGFloat value = self.waveRateChart.value+ 20;
+    CGFloat value = self.waveRateChart.value + 20;
     self.waveRateChart.value =  value;
     self.slider.value = value;
 }
 
 - (IBAction)cut:(UIButton *)sender {
-    CGFloat value = self.waveRateChart.value+ 20;
+    CGFloat value = self.waveRateChart.value - 20;
     self.waveRateChart.value =  value;
     self.slider.value = value;
 }
