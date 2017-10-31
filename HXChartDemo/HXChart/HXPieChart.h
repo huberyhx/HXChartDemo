@@ -17,7 +17,7 @@
 
 #pragma 必需属性
 /** 数据源 */
-@property(nonatomic,strong) NSArray<HXPieChartDataItem *> *dataArray;
+@property(nonatomic,strong,nonnull) NSArray<HXPieChartDataItem *> *dataArray;
 
 
 #pragma 非必需属性

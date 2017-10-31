@@ -14,7 +14,7 @@
 #pragma 必需属性:
 
 /** 折线数据 */
-@property(nonatomic,strong) NSArray<HXLineChartDataItem *> *dataArray;
+@property(nonatomic,strong,nonnull) NSArray<HXLineChartDataItem *> *dataArray;
 
 /** Y轴最大值 - 是Y轴最顶端的值*/
 @property(nonatomic,assign) CGFloat yValueMax;
@@ -23,10 +23,10 @@
 @property(nonatomic,assign) CGFloat yValueMin;
 
 /** X轴坐标值数组 - 数组的顺序是从X轴左向右 - 数组不仅用于显示,而且用于坐标计算,如果不想显示,则可设置isShowXAxisText为NO*/
-@property(nonatomic,strong) NSArray *xAxisTextArray;
+@property(nonatomic,strong,nonnull) NSArray *xAxisTextArray;
 
 /** Y轴坐标值数组 - 数组的顺序是从Y轴的底部到顶部 - 数组不仅用于显示,而且用于坐标计算,如果不想显示,则可设置isShowYAxisText为NO*/
-@property(nonatomic,strong) NSArray *yAxisTextArray;
+@property(nonatomic,strong,nonnull) NSArray *yAxisTextArray;
 
 #pragma 非必需属性:
 
