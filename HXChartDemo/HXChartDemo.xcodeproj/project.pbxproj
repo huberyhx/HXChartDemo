@@ -385,10 +385,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A267GPU8XH;
+				DEVELOPMENT_TEAM = 3MML6C9L75;
 				INFOPLIST_FILE = HXChartDemo/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hubery.hx.HXChartDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.siruisheng.TSchome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -399,10 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A267GPU8XH;
+				DEVELOPMENT_TEAM = 3MML6C9L75;
 				INFOPLIST_FILE = HXChartDemo/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hubery.hx.HXChartDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.siruisheng.TSchome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

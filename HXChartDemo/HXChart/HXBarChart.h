@@ -50,7 +50,7 @@ typedef NS_ENUM(NSUInteger , HXBarChartValuePositionStyle) {
 @property(nonatomic,assign) BOOL isShowAxis;
 
 /** 坐标轴颜色 - 默认灰色*/
-@property(nonatomic,strong) UIColor *axisColor;
+@property(nonatomic,strong,nullable) UIColor *axisColor;
 
 /** 坐标轴宽度 默认1 */
 @property(nonatomic,assign) CGFloat axisWidth;
@@ -65,13 +65,13 @@ typedef NS_ENUM(NSUInteger , HXBarChartValuePositionStyle) {
 @property(nonatomic,assign) BOOL isShowYAxisText;
 
 /** X轴Text字体 */
-@property(nonatomic,strong) UIFont *xAxisTextFont;
+@property(nonatomic,strong,nullable) UIFont *xAxisTextFont;
 
 /** X轴字体大小 - 默认12 */
 @property(nonatomic,assign) CGFloat xAxisTextSize;
 
 /** Y轴字体 */
-@property(nonatomic,strong) UIFont *yAxisTextFont;
+@property(nonatomic,strong,nullable) UIFont *yAxisTextFont;
 
 /** Y轴字体大小 - 默认12 */
 @property(nonatomic,assign) CGFloat yAxisTextSize;
@@ -101,22 +101,22 @@ typedef NS_ENUM(NSUInteger , HXBarChartValuePositionStyle) {
 @property(nonatomic,assign) HXBarChartValuePositionStyle barChartValuePositionStyle;
 
 /** 条形柱颜色 - 默认绿色*/
-@property(nonatomic,strong) UIColor *barColor;
+@property(nonatomic,strong,nullable) UIColor *barColor;
 
 /** 条形柱渐变颜色底部 - 默认就是barColor */
-@property(nonatomic,strong) UIColor *fromColor;
+@property(nonatomic,strong,nullable) UIColor *fromColor;
 
 /** 条形柱渐变颜色上部 - 默认就是barColor  */
-@property(nonatomic,strong) UIColor *toColor;
+@property(nonatomic,strong,nullable) UIColor *toColor;
 
 /** 条形柱的圆角半径 - 默认条形柱宽度的15% */
 @property(nonatomic,assign) CGFloat barCornerRadius;
 
 /** 条形柱数值颜色 - 默认黑色 */
-@property(nonatomic,strong) UIColor *barValueTextColor;
+@property(nonatomic,strong,nullable) UIColor *barValueTextColor;
 
 /** 条形柱数值字体 */
-@property(nonatomic,strong) UIFont *barValueTextFont;
+@property(nonatomic,strong,nullable) UIFont *barValueTextFont;
 
 /** 条形柱数值字体大小 - 默认12 */
 @property(nonatomic,assign) CGFloat barValueTextSize;
@@ -125,6 +125,6 @@ typedef NS_ENUM(NSUInteger , HXBarChartValuePositionStyle) {
 @property(nonatomic,assign) BOOL isShowBarBackColor;
 
 /** 条形柱背景颜色 - 默认灰色*/
-@property(nonatomic,strong) UIColor *barBackColor;
+@property(nonatomic,strong,nullable) UIColor *barBackColor;
 
 @end

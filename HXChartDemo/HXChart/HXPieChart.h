@@ -12,7 +12,7 @@
 
 @interface HXPieChart : UIView
 /** 快速创建 */
-+ (instancetype)initWithFrame:(CGRect)frame dataArray:(NSArray<HXPieChartDataItem *> *)dataArray;
++ (instancetype _Nonnull )initWithFrame:(CGRect)frame dataArray:(NSArray<HXPieChartDataItem *> *_Nonnull)dataArray;
 
 
 #pragma 必需属性

@@ -37,7 +37,7 @@
 @property(nonatomic,assign) BOOL isShowDottedLine;
 
 /** 虚线颜色 - 默认灰色 */
-@property(nonatomic,strong) UIColor *dottedLineColor;
+@property(nonatomic,strong,nullable) UIColor *dottedLineColor;
 
 /** 虚线宽度 - 默认0.4 */
 @property(nonatomic,assign) CGFloat dottedLineWidth;
@@ -49,16 +49,16 @@
 @property(nonatomic,assign) BOOL isShowYAxisText;
 
 /** X轴刻度值字体 */
-@property(nonatomic,strong) UIFont *xAxisTextFont;
+@property(nonatomic,strong,nullable) UIFont *xAxisTextFont;
 
 /** Y轴刻度值字体 */
-@property(nonatomic,strong) UIFont *yAxisTextFont;
+@property(nonatomic,strong,nullable) UIFont *yAxisTextFont;
 
 /** X轴刻度值字体颜色 - 默认黑色*/
-@property(nonatomic,strong) UIColor *xAxisTextColor;
+@property(nonatomic,strong,nullable) UIColor *xAxisTextColor;
 
 /** Y轴刻度值字体颜色 - 默认黑色 */
-@property(nonatomic,strong) UIColor *yAxisTextColor;
+@property(nonatomic,strong,nullable) UIColor *yAxisTextColor;
 
 /** X轴刻度值字体大小 - 默认12 */
 @property(nonatomic,assign) CGFloat xAxisTextSize;
@@ -70,7 +70,7 @@
 @property(nonatomic,assign) CGFloat axisWidth;
 
 /** 坐标轴颜色  默认灰色*/
-@property(nonatomic,strong) UIColor *axisColor;
+@property(nonatomic,strong,nullable) UIColor *axisColor;
 
 /** 是否添加动画 - 默认YES */
 @property(nonatomic,assign) BOOL isShowAnimate;
@@ -79,16 +79,16 @@
 @property(nonatomic,assign) CGFloat animateDuration;
 
 /** X轴坐标值单位 - 例如(时间 s) - 默认为空*/
-@property(nonatomic,strong) NSString *xAxisUnit;
+@property(nonatomic,strong,nullable) NSString *xAxisUnit;
 
 /** X坐标单位Text字体颜色 - 默认和坐标轴刻度Text颜色一样 */
-@property(nonatomic,strong) UIColor *xAxisUnitColor;
+@property(nonatomic,strong,nullable) UIColor *xAxisUnitColor;
 
 /** Y轴坐标值单位 - 例如(路程 m) - 默认为空*/
-@property(nonatomic,strong) NSString *yAxisUnit;
+@property(nonatomic,strong,nullable) NSString *yAxisUnit;
 
 /** Y坐标单位Text字体颜色 - 默认和坐标轴刻度Text颜色一样 */
-@property(nonatomic,strong) UIColor *yAxisUnitColor;
+@property(nonatomic,strong,nullable) UIColor *yAxisUnitColor;
 
 /** 左内边距 - 用于显示Y轴Label  - 默认25  但是不小于3*/
 @property(nonatomic,assign) CGFloat leftMargin;
